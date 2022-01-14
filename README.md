@@ -4,7 +4,7 @@ Local installation and basic functionalities guide:
 
 1) Make sure the latest Python 3 version is installed
 2) (Optionally) create a virtual environment
-3) Set environmental variable SECRET_KEY to a sutable key
+3) Set environmental variable SECRET_KEY to a suitable key
 4) From command line in the root directory, run the following commands:
 pip install -r requirements.txt  #installs the needed dependancies
 python manage.py createsuperuser #follow the prompts to set a user, which will be used for admin login page  
