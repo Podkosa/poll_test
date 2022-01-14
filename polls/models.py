@@ -5,7 +5,7 @@ class Poll(models.Model):
     active = models.BooleanField(default=True)
     description = models.TextField()
     date_start = models.DateField(auto_now_add=True)
-    date_finish = models.DateField()
+    date_finish = models.DateField(blank=True)
     def __str__(self):
         return self.name
 
