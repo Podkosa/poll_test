@@ -23,3 +23,5 @@ http://localhost:8000/polls/active #returns a list of active polls
 http://localhost:8000/polls/vote #vote functionality URL, accepts POST HTTP requests, expects 3 arguments: user_id, poll (specific poll id), answers ({question:answer} as a string!)
 
 http://localhost:8000/polls/vote/user-votes #displays polls that the user finished
+
+Update 1: OpenAPI schema added
