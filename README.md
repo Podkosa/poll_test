@@ -10,7 +10,6 @@ pip install -r requirements.txt  #installs the needed dependancies
 python manage.py createsuperuser #follow the prompts to set a user, which will be used for admin login page  
 python manage.py runserver       #runs the server on localhost:8000 
 4) The following urls are available:
-5) 
 http://localhost:8000/ #intentionally left blank
 
 http://localhost:8000/admin/ #admin site login page
